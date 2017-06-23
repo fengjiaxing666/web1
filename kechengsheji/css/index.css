@@ -1,0 +1,261 @@
+*{
+	margin: 0px;
+	font-size: 12px;
+	color: #000000;
+	padding: 0px;
+	font-family: '宋体';
+}
+img{
+	border: 0;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+a:link{
+    color: #000000;
+}
+a:hover{
+	color: #0000ff;
+}
+body{
+	background-image: url(../images/timg.jpg);
+	background-repeat: no-repeat;
+	background-size: 1400px 2300px;
+}
+/*页头部分*/
+#header{
+	margin: auto;
+}
+#div1{
+    height: 60px;
+    width: auto; 
+}
+.nav ul{
+	margin-left: 340px; 
+}
+.nav ul li{
+    float: left;
+    line-height: 30px;
+	margin-top: 10px;
+}
+.nav ul li a{
+	font-size: 15px;
+	color: #ffffff;
+}
+.nav ul li a:hover{
+	color: #0000ff;
+}
+.photo img{
+	float: left;
+}
+.logo{
+	float: left;
+	margin-left: 180px;
+}
+.search{
+	float: left;
+}
+.search input{
+	height: 25px;
+	width: 140px;
+	margin-left: 60px;
+	margin-top: 15px;
+	border-color: #6600ff;
+	background-color: #e0e0e0;
+}
+.search button{
+	height: 30px;
+	width: 40px;
+	margin-left: 0px;
+	background-color: #ffff99;
+}
+#banner img{
+	float: left;
+	width: 1000px;
+	height: 250px;
+	margin-left: 180px;
+}
+/*页面主体部分*/
+.xiangmu{
+	float: left;
+	margin-left: 180px;
+	margin-top: 10px;
+	background-color: #ffff99;
+	width: 300px;
+}
+.xiangmu font{
+	font-size: 20px;
+	font-weight: bold;
+	color: #ff0000;
+	font-family: '黑体';
+	margin-left: 10px;
+	margin-right: 45px;
+}
+.xiangmu ul{
+	margin-top: 5px;
+	margin-left: 20px;
+}
+.xiangmu ul li{
+	line-height: 25px;
+}
+.xinwen{
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+	opacity: 0.8;
+	width: 290px;
+}
+.xinwen font{
+	font-size: 20px;
+	font-weight: bold;
+	color: #ff0000;
+	font-family: '黑体';
+	margin-left: 10px;
+	margin-right: 90px;
+}
+.xinwen ul{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.xinwen ul li{
+	line-height: 25px;
+}
+.denglu{
+	float: left;
+	margin-left: 80px;
+}
+table{
+	width: 180px;
+	height: 160px;
+	margin-top: 40px;
+	background-image: url(../images/d.png);
+}
+form table tr td{
+	width:40px;
+    height:30px;
+}
+form input[type="text"]{
+    width: 200px;
+    height: 26px;
+}
+form table input[type="password"]{
+    width: 200px;
+    height: 26px;
+}
+form table font{
+	font-size: 20px;
+}
+form table input[type="button"]{
+	width: 40px;
+	height: 30px;
+}
+form table input[type="submit"]{
+	width: 40px;
+	height: 30px;
+}
+.fengcai{
+	float: left;
+	margin-left: 180px;
+	margin-top: 10px;
+}
+.fengcai font{
+	height: 160px;
+	font-size: 25px;
+	font-weight: bold;
+	float: left;
+	margin-top: 20px;
+}
+.photo{
+	width: auto;
+	height: auto;
+    float: left;
+}
+.photo img{
+	display: inline;
+	margin: 3px;
+	border: 1px solid #bebebe;
+	width: 160px;
+	height: 160px;
+	margin-left: 6px;
+}
+.photo img:hover{
+	opacity: 0.8;
+	border: 1px solid #333333;
+}
+.zhaomu{
+	float: left;
+	margin-left: 100px;
+	width: 250px;
+	height: 250px;
+	margin-top: 10px;
+}
+.zhaomu img{
+	width: 250px;
+	height: 250px;
+}
+.zhaomu img:hover{
+	opacity: 0.8;
+	border: 1px solid #000000;
+}
+.zhaomu p{
+	font-size: 18px;
+	color: #ff0000;
+	font-weight: bold;
+	margin-top: 20px;
+	text-align: center;
+}
+.lianjie{
+	float: left;
+	margin-left: 200px;
+	margin-top: 10px;
+	width: 700px;
+	height: 300px;
+	background-image: url(../images/g.png);
+    background-repeat: no-repeat;
+}
+.lianjie img{
+	width: 80px;
+	height: 50px;
+	margin-left: 10px;
+	float: left;
+	margin-top: 5px;
+}
+.lianjie ul{
+    float: left;
+    margin-left: 35px;
+    margin-top: 8px;
+}
+.lianjie ul li{
+	line-height: 35px;
+	list-style-type: square;
+}
+.lianjie ul li a{
+	font-size: 15px;
+}
+/*页脚部分*/
+#footer{
+	height: 100px;
+	width: 1000px;
+	float: left;
+	margin-left: 200px;
+	margin-top: 2px;
+}
+#footer ul{
+	float: left;
+	margin-left: 200px;
+	margin-top: 20px;
+}
+#footer ul li{
+	float: left;
+}
+#footer ul li a{
+	font-size: 15px;
+}
+#footer p{
+	margin-left: 300px;
+	float: left;
+	margin-top: 15px;
+}

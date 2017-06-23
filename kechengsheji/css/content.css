@@ -1,0 +1,223 @@
+*{
+	margin: 0px;
+	font-size: 12px;
+	color: #000000;
+	padding: 0px;
+	font-family: '宋体';
+}
+img{
+	border: 0;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+a:link{
+    color: #000000;
+}
+a:hover{
+	color: #0000ff;
+}
+body{
+	background-image: url(../images/timg.jpg);
+	background-repeat: no-repeat;
+	background-size: 1400px 2300px;
+}
+/*页头部分*/
+#header{
+	margin: auto;
+}
+#div1{
+    height: 60px;
+    width: auto; 
+}
+.nav ul{
+	margin-left: 340px; 
+	margin-top: 30px;
+}
+.nav ul li{
+    float: left;
+    line-height: 30px;
+	margin-top: 10px;
+}
+.nav ul li a{
+	font-size: 15px;
+	color: #ffffff;
+}
+.nav ul li a:hover{
+	color: #0000ff;
+}
+.photo img{
+	float: left;
+}
+.logo{
+	float: left;
+	margin-left: 180px;
+}
+.search{
+	float: left;
+}
+.search input{
+	height: 25px;
+	width: 140px;
+	border-color: #6600ff;
+	background-color: #e0e0e0;
+	margin-top: 15px;
+	margin-left: 60px;
+}
+.search button{
+	height: 30px;
+	width: 40px;
+	margin-left: 0px;
+	background-color: #ffff99;
+}
+#banner img{
+	float: left;
+	width: 1000px;
+	height: 250px;
+	margin-left: 180px;
+}
+/*页面主体部分*/
+#content{
+	clear: both;
+}
+.mianbao{
+	margin-top: 20px;
+	margin-left: 220px;
+    float: left;
+    font-size: 14px;
+    color: #0000ff;
+}
+.mianbao a{
+	font-size: 14px;
+    color: #0000ff;
+}
+.mianbao a:hover{
+	color: #ff0000;
+}
+#center h1{
+	float: left;
+	margin-left: 380px;
+	margin-top: 20px;
+	font-size: 30px;
+}
+.p2{
+	float: left;
+	margin-left: 260px;
+	margin-right: 320px;
+	margin-top: 10px;
+	font-size: 20px;
+	text-indent: 2em;
+	font-family: '楷体';
+	line-height: 36px;
+}
+#p1{
+	font-size: 4px;
+	color: #585858;
+	float: left;
+	margin-left: 420px;
+	margin-top: 10px;
+}
+.img1{
+	margin-left: 300px;
+	margin-top: 20px;
+	float: left;
+}
+.img2{
+	margin-left: 40px;
+	margin-top: 20px;
+	float: left;
+}
+.img3{
+	margin-left: 300px;
+	margin-top: 30px;
+	float: left;
+}
+.img4{
+	margin-left: 40px;
+	margin-top: 30px;
+	float: left;
+}
+.p3{
+	float: left;
+	margin-left: 320px;
+	margin-top: 16px;
+}
+.p3 font{
+	color: #0000ff;
+}
+.qita{
+	width: 1000px;
+	height: 300px;
+    float: left;
+    margin-left: 200px;
+}
+.pp{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.ppp{
+    margin: 10px 5px 10px 5px;
+    text-align: center;
+    width: 140px;
+}
+.qita1 img{
+	border: 1px solid #bebebe;
+	width: 140px;
+	height: 140px;
+	margin-left: 60px;
+	float: left;
+	margin-top: 20px;
+}
+.qita1 img:hover{
+	opacity: 0.8;
+	border: 1px solid #333333;
+}
+.liebiao{
+	border: 1px solid #c0c0c0;
+	width: 350px;
+	height: 250px;
+	margin-left: 250px;
+	float: left;
+}
+.liebiao td{
+	border: 1px solid #c0c0c0;
+	font-size: 15px;
+}
+.biaodan{
+	border: 1px solid #c0c0c0;
+	width: 350px;
+	height: 250px;
+	margin-left: 20px;
+	float: left;
+}
+.one{
+	font-size: 15px;
+}
+/*页脚部分*/
+#footer{
+	height: 100px;
+	width: 1000px;
+	float: left;
+	margin-left: 200px;
+	margin-top: 10px;
+}
+#footer ul{
+	float: left;
+	margin-left: 200px;
+	margin-top: 20px;
+}
+#footer ul li{
+	float: left;
+}
+#footer ul li a{
+	font-size: 15px;
+}
+#footer p{
+	margin-left: 300px;
+	float: left;
+	margin-top: 15px;
+}
